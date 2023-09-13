@@ -1,0 +1,389 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Navbar Section */
+.collapse ul li {
+    padding-right: 40px;
+}
+
+.fa-chevron-down {
+    color: #172E59;
+}
+
+/* End of Nav Styling */
+
+
+/* Hero1 Stylings */
+.hero1 .inputbtn {
+    margin-left: 10%;
+}
+
+.inputbtn input {
+    width: 45%;
+    padding: 1%;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgb(201, 201, 201);
+}
+
+.fa-search {
+    color: white;
+}
+
+#addon-wrapping {
+    background-color: #172E59;
+}
+
+/* The inputlinks stylings */
+.inputlinks a {
+    text-decoration: none;
+    border: 1px solid grey;
+    border-radius: 25px;
+    padding: 12px;
+    margin-right: 2%;
+    color: #172E59;
+}
+
+
+
+/* Hero2 Stylings */
+.mainbox {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mainbox .row .col-md-3 .row3 {
+    margin-top: 70%;
+}
+
+.mainbox .row .col-md-3 img {
+    width: 90%;
+}
+
+.mainbox .row .col-md-3 .row3 {
+    display: flex;
+}
+
+.mainbox .row .col-md-3 .row3 h2 {
+    color: #172E59;
+    font-weight: bolder;
+    /* font-size: 35px; */
+}
+.blue{
+    color: #172E59;
+}
+.mainbox .row .col-md-3 .row3 p {
+    color: #172E59;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/* Second col styling */
+.mainbox .row .col-md-6 .col-md-8 .h3 {
+    color: #172E59;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.mainbox .row .col-md-6 {
+    border-right: 1px solid rgb(197, 197, 197);
+    padding-right: 2%;
+}
+
+.mainbox .row .col-md-6 .col-md-4 a {
+    text-decoration: none;
+    color: white;
+    background-color: #A21E21;
+    padding: 4% 7%;
+    border-radius: 25px;
+}
+
+.mainbox .row .col-md-6 .textblue {
+    color: #172E59;
+}
+
+.mainbox .row .col-md-6 .textblood {
+    color: #A21E21;
+
+}
+
+/* stars */
+.stars span {
+    color: black;
+}
+
+.stars {
+    font-size: 14px;
+    color: orange;
+}
+
+/* chat */
+.chat {
+    border-top: 1px solid rgb(201, 201, 201);
+    padding: 2% 0;
+    color: #172E59;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.chat span {
+    margin-right: 4%;
+}
+
+.sml {
+    font-size: 14px;
+    color: rgb(64, 64, 64);
+}
+
+/* Product */
+.product a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #172E59;
+    background-color: #e3ebfc;
+    margin-right: 3%;
+    padding: 1% 2%;
+    border-radius: 20px;
+}
+
+.product a:hover {
+    color: #A21E21;
+}
+
+/* button */
+.viewprofile {
+    text-decoration: none;
+    color: white;
+    background-color: #172E59;
+    padding: 2% 15%;
+    border-radius: 7px;
+}
+
+.viewprofile:hover {
+    background-color: #A21E21;
+    color: white;
+    transition: 1s ease;
+}
+
+
+/* Third Col */
+.mainbox .row1 {
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 10px;
+}
+.mainbox .row1{
+    position: relative;
+}
+.outsider{
+    position: absolute;
+    background-color: #ffffff;
+    color: grey;
+    border: 1px solid grey;
+    padding: 1px 1%;
+    border-radius: 30px;
+    top: -2%;
+    left: 85%;    
+}
+
+.mainbox .row .sec3 .text-end {
+    color: #172E59;
+    background-color: #e3ebfc;
+    padding: 1% 5%;
+    margin-left: 32%;
+    border-radius: 25px;
+}
+
+.mainbox .row .sec3 p {
+    font-size: 14px;
+}
+
+.spn,
+.fa-spinner,
+.fa-id-badge {
+    margin-right: 8%;
+    color: gray;
+}
+
+.mr {
+    margin-top: 12%;
+    margin-bottom: 24%;
+}
+
+.more {
+    text-decoration: none;
+    color: #172E59;
+    font-weight: 500;
+    margin-left: 80%;
+    font-size: 14px;
+}
+
+.more:hover {
+    color: #A21E21;
+}
+
+
+/* The Footer Section */
+.social .fa-facebook, .social .fa-instagram, .social .fa-twitter, .social .fa-linkedin{
+    font-size: 30px;
+    color: rgb(105, 105, 105);
+    margin-right: 20px;
+}
+.social .fa-facebook:hover, .social .fa-instagram:hover, .social .fa-twitter:hover, .social .fa-linkedin:hover{
+    color: #A21E21;
+}
+/* End of footer socialmedia icons */
+
+/* Footer Links */
+.footerhead{
+    color: #172E59;
+    font-weight: 500;
+}
+.footerlinks a{
+    color: gray;
+} .footerlinks a:hover{color: black;}
+
+
+
+
+@media (max-width: 800px) {
+
+    /* Hero1 Stylings */
+    .inputlinks a {
+        padding: 2%;
+        /* font-size: 12px; */
+        width: 25%;
+
+    }
+
+    .hero1 .inputbtn .btn-group button {
+        color: white;
+        background-color: #A21E21;
+        width: 100%;
+        padding: 2% 0;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }
+
+    .hero1 .inputbtn .btn-group .dropdown-menu {
+        width: 100%;
+        background-color: #e3ebfc;
+        border: none;
+    }
+
+    .hero1 .inputbtn .btn-group .dropdown-menu li a {
+        text-decoration: none;
+        color: #172E59;
+        padding: 3%;
+    }
+
+    .hero1 .inputbtn .btn-group .dropdown-menu .b1 {
+        background-color: #172E59;
+        color: white;
+    }
+
+    .hero1 .inputbtn .btn-group .dropdown-menu .b1 a {
+        color: white;
+    }
+
+    .hero1 .inputbtn {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .inputbtn input {
+        width: 85%;
+        padding: 2% 3%;
+    }
+
+    .outsider{
+    position: absolute;
+    background-color: #ffffff;
+    color: grey;
+    border: 1px solid grey;
+    padding: 1%;
+    border-radius: 30px;
+    top: -1%;
+    left: 50%;  
+    width: 120px;  
+}
+
+    /* End of Hero1 Stylings */
+
+
+
+    /* Hero2 Stylings */
+    .mainbox .row .col-md-3 img {
+        width: 100%;
+    }
+
+    .mainbox .row .col-md-3 .row3 {
+        margin-top: 30%;
+        margin-bottom: 20%;
+        border-bottom: 1px solid rgb(205, 205, 205);
+    }
+
+    /* Second col styling */
+
+    .mainbox .row .col-md-6 {
+        border: none;
+    }
+
+    .mainbox .row .col-md-6 .col-md-4 a {
+        font-size: 12px;
+    }
+
+    /* Product */
+    .product a {
+        margin-right: 5%;
+        margin-bottom: 4;
+        padding: 1% 2%;
+        border-radius: 20px;
+    }
+
+    /* Third Col */
+    .mainbox .row1 {
+        border: 1px solid rgb(205, 205, 205);
+        border-radius: 10px;
+    }
+
+    .mainbox .row .sec3 {
+        margin-top: 10%;
+    }
+
+    .mainbox .row .col-md-3 .row3 h2 {
+    color: #172E59;
+    font-weight: bolder;
+    /* font-size: 20px; */
+}
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1290px) {
+    .mainbox .row .col-md-3 .row3 h2 {
+        font-size: 100%;
+    }
+
+    .mainbox .row .col-md-3 .row3 p {
+        font-size: 90%;
+        margin-top: -9%;
+    }
+
+    .mainbox .row .col-md-6 .col-md-4 a {
+        width: 100%;
+        font-size: 50%;
+    }
+
+    .mainbox .row .sec3 .text-end {
+        padding: 0;
+        font-size: 80%;
+        margin-left: 0%;
+        border-radius: 20px;
+        width: 100%;
+    }
+
+    .mainbox .row .sec3 {
+        margin-top: 0%;
+    }
+}

@@ -1,0 +1,507 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Navbar Section */
+.collapse ul li {
+    padding-right: 40px;
+}
+
+.fa-chevron-down {
+    color: #172E59;
+}
+
+/* End of Nav Styling */
+
+/* The Footer Section */
+.footer{
+    margin-top: 10%;
+}
+.social .fa-facebook, .social .fa-instagram, .social .fa-twitter, .social .fa-linkedin{
+    font-size: 30px;
+    color: rgb(105, 105, 105);
+    margin-right: 20px;
+}
+.social .fa-facebook:hover, .social .fa-instagram:hover, .social .fa-twitter:hover, .social .fa-linkedin:hover{
+    color: #A21E21;
+}
+/* End of footer socialmedia icons */
+
+/* Footer Links */
+.footerhead{
+    color: #172E59;
+    font-weight: 500;
+}
+.footerlinks a{
+    color: gray;
+} .footerlinks a:hover{color: black;}
+
+
+
+/* First Div Sty */
+/* Web Image Stylings */
+#webimage{
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+.webimg{
+  position: relative;
+  z-index: 1;
+}
+#webimage .square{
+  position: absolute;
+  width: 150px;
+  left: 46%;
+  top: 23%;
+  z-index: 0;
+}
+
+.webcont{
+  padding: 11%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.webcont .p1{
+  display: inline;
+  background-color: #A21E21;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 2px;
+}
+.webcont h1{
+  color: #172E59;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.webcont .p2{
+  font-size: 20px;
+  color: rgb(69, 69, 69);
+  margin-bottom: 50px;
+}
+.webcont .a1{
+  text-decoration: none;
+  color: white;
+  background-color: #172E59;
+  padding: 13px 25px;
+  border-radius: 5px;
+}
+.webcont .a2{
+  margin-left: 5%;
+  text-decoration: none;
+  color: #172E59;
+  background-color: #acc2ec;
+  padding: 13px 25px;
+  border-radius: 5px;
+}
+
+
+
+/* Reaching */
+.reaching .middle{
+  margin-top: 6%;
+}
+.reaching .reachvid video{
+  /* border-bottom-left-radius: 80px; */
+}
+.reachtext{
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/hey.jpg) ;
+  width: 100%;
+  height: 360px;
+  margin-top: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 10%;
+  border-top-right-radius: 50px;
+}
+.reaching .reachtext h1{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 50px;
+    
+}
+.reaching .reachtext P{
+    text-align: center;
+    font-size: 20px;
+    
+}
+.reachvid video{
+  position: relative; 
+  z-index: 1;
+}
+.square2 img{
+  position: absolute;
+  width: 140px;
+  left: 2%;
+  top: 245%;
+  z-index: 0;
+}
+
+
+
+
+
+
+
+
+.hero1{
+    position: relative;
+    height: 500px;
+    background-color: #172E59;
+    /* background: linear-gradient(to top, rgba(255, 255, 255, 0.9), rgba(4, 2, 36, 0.9), rgba(25, 52, 109, 0.8)); */
+}
+.hero1 img{
+    width: 100%;
+}
+
+.hero1 .col-md-6 .triangle1{
+    position: absolute;
+    top: 14%;
+    width: 30px;
+    height: 30px;
+    left: 66%;
+}
+.hero1 .col-md-6 .triangle2{
+    position: absolute;
+    top: 14%;
+    width: 30px;
+    height: 30px;
+    left: 89%;
+}
+
+.letsguide{
+  font-family: cursive;
+}
+.getstarted-btn{
+  position: absolute;
+  top: 60%;
+  left: 17%;
+  padding: 6px 20px;
+  color: #A21E21;
+  border-radius: 2px;
+  /* border: 3px solid #A21E21; */
+  background-color: white;
+
+}
+
+
+
+
+/* The Improve section */
+.improve{
+  margin-top: 7%;
+  background-color: #172E59;
+  /* height: 400px; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 8% 0;
+}
+.improve h1{
+  font-size: 48px;
+}
+.improve a{
+  text-decoration: none;
+  color: white;
+  background-color: #7890bc;
+  width: 12%;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 45%;
+}
+.improve a:hover{
+  background-color: orange;
+  color: white;
+  transition: 1s ease;
+}
+
+.bxn3{
+  height: 310px;
+}
+
+/* supported */
+.supported a{
+  text-decoration: none;
+  color: white;
+  background-color: #7890bc;
+  width: 12%;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.supported a:hover{
+  background-color: orange;
+  color: white;
+  transition: 1s ease;
+}
+
+
+
+
+  @font-face {
+    font-family: Clip;
+    src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+  }
+  
+ 
+  
+  .sign {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background-image: radial-gradient(
+      ellipse 50% 35% at 50% 50%,
+      #6b1839,
+      transparent
+    );
+    transform: translate(-50%, -50%);
+    letter-spacing: 2;
+    left: 22%;
+    top: 50%;
+    font-family: "Clip";
+    text-transform: uppercase;
+    font-size: 8em;
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #A21E21, 0 0 1.5rem #A21E21,
+      -0.2rem 0.1rem 1rem #A21E21, 0.2rem 0.1rem 1rem #A21E21,
+      0 -0.5rem 2rem #A21E21, 0 0.5rem 3rem #A21E21;
+    animation: shine 2s forwards, flicker 3s infinite;
+  }
+  
+  @keyframes blink {
+    0%,
+    22%,
+    36%,
+    75% {
+      color: #ffe6ff;
+      text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #A21E21,
+        -0.2rem 0.1rem 1rem #A21E21, 0.2rem 0.1rem 1rem #A21E21,
+        0 -0.5rem 2rem #A21E21, 0 0.5rem 3rem #A21E21;
+    }
+    28%,
+    33% {
+      color: #ff65bd;
+      text-shadow: none;
+    }
+    82%,
+    97% {
+      color: #ff2483;
+      text-shadow: none;
+    }
+  }
+  
+  .flicker {
+    animation: shine 2s forwards, blink 3s 2s infinite;
+  }
+  
+  .fast-flicker {
+    animation: shine 2s forwards, blink 10s 1s infinite;
+  }
+  
+  @keyframes shine {
+    0% {
+      color: #6b1839;
+      text-shadow: none;
+    }
+    100% {
+      color: #ffe6ff;
+      text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #A21E21,
+        -0.2rem 0.1rem 1rem #A21E21, 0.2rem 0.1rem 1rem #A21E21,
+        0 -0.5rem 2rem #A21E21, 0 0.5rem 3rem #A21E21;
+    }
+  }
+  
+  @keyframes flicker {
+    from {
+      opacity: 1;
+    }
+  
+    4% {
+      opacity: 0.9;
+    }
+  
+    6% {
+      opacity: 0.85;
+    }
+  
+    8% {
+      opacity: 0.95;
+    }
+  
+    10% {
+      opacity: 0.9;
+    }
+  
+    11% {
+      opacity: 0.922;
+    }
+  
+    12% {
+      opacity: 0.9;
+    }
+  
+    14% {
+      opacity: 0.95;
+    }
+  
+    16% {
+      opacity: 0.98;
+    }
+  
+    17% {
+      opacity: 0.9;
+    }
+  
+    19% {
+      opacity: 0.93;
+    }
+  
+    20% {
+      opacity: 0.99;
+    }
+  
+    24% {
+      opacity: 1;
+    }
+  
+    26% {
+      opacity: 0.94;
+    }
+  
+    28% {
+      opacity: 0.98;
+    }
+  
+    37% {
+      opacity: 0.93;
+    }
+  
+    38% {
+      opacity: 0.5;
+    }
+  
+    39% {
+      opacity: 0.96;
+    }
+  
+    42% {
+      opacity: 1;
+    }
+  
+    44% {
+      opacity: 0.97;
+    }
+  
+    46% {
+      opacity: 0.94;
+    }
+  
+    56% {
+      opacity: 0.9;
+    }
+  
+    58% {
+      opacity: 0.9;
+    }
+  
+    60% {
+      opacity: 0.99;
+    }
+  
+    68% {
+      opacity: 1;
+    }
+  
+    70% {
+      opacity: 0.9;
+    }
+  
+    72% {
+      opacity: 0.95;
+    }
+  
+    93% {
+      opacity: 0.93;
+    }
+  
+    95% {
+      opacity: 0.95;
+    }
+  
+    97% {
+      opacity: 0.93;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+
+
+  /* Book Session Responsive */
+  @media (max-width: 800px) {
+    #webimage .square{
+    position: absolute;
+    width: 80px;
+    left: 50%;
+    top: 18%;
+    z-index: 0;
+    }
+
+    .webcont .a1{
+      text-decoration: none;
+      color: white;
+      background-color: #172E59;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .webcont .a2{
+      margin-left: 2%;
+      text-decoration: none;
+      color: #172E59;
+      background-color: #acc2ec;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .reaching .reachtext h1{
+      font-weight: bolder;
+      text-align: center;
+      font-size: 50px;
+      margin-top: 50px;
+    }
+    .square2 img{
+      position: absolute;
+      width: 90px;
+      left: 37%;
+      top: 261%;
+      opacity: 0.3;
+      z-index: 0;
+    }
+
+    .improve a{
+      text-decoration: none;
+      color: white;
+      background-color: #7890bc;
+      width: 50%;
+      text-align: center;
+      padding: 10px;
+      border-radius: 10px;
+      margin-left: 25%;
+    }
+
+    .bxn{
+      margin-top: 10%;
+    }
+    .bxn3{
+      margin-top: 10%;
+      height: 350px;
+    }
+    
+  }

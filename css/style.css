@@ -1,0 +1,700 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* TopButton section */
+.topbuttons {
+    background-color: #A21E21;
+    padding: 10px 0;
+}
+
+.topbuttons .container .row a,
+.snd {
+    margin: 0 2px;
+    text-decoration: none;
+    color: white;
+    background-color: #E59A2C;
+    padding: 4px 8px;
+    color: white;
+    border-radius: 3px;
+}
+
+.topbuttons .container .row a:hover {
+    opacity: 0.7;
+}
+
+.topbuttons .container .row input {
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+    padding-left: 10px;
+    outline: none;
+}
+
+/* Navbar Section */
+.collapse ul li {
+    padding-right: 40px;
+}
+
+.fa-chevron-down {
+    color: #E59A2C;
+}
+
+
+/* Hero1  */
+.hero1 {
+    background-image: url(../img/mentbg1.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero1 .container .row .col-md-9 {
+    margin: 5%;
+    padding: 5%;
+}
+
+/* index page top text animation section */
+.hero1 .container .row .col-md-9 h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+    font-family: "Russo One", sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+svg text {
+    animation: stroke 5s infinite alternate;
+    stroke-width: 2;
+    stroke: #172E59;
+    font-size: 70px;
+}
+
+@keyframes stroke {
+    0% {
+        fill: rgba(72, 138, 204, 0);
+        stroke: #172E59;
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+        stroke-width: 2;
+    }
+
+    70% {
+        fill: rgba(72, 138, 204, 0);
+        stroke: #172E59;
+    }
+
+    80% {
+        fill: rgba(72, 138, 204, 0);
+        stroke: #2a4270;
+        stroke-width: 3;
+    }
+
+    100% {
+        fill: #A21E21;
+        stroke: rgba(54, 95, 160, 0);
+        stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 0;
+        stroke-width: 0;
+    }
+}
+
+
+.btnhero1 {
+    padding: 30px 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 25px 30px 0px rgb(226, 226, 226);
+}
+
+.btnhero1 input {
+    width: 30%;
+    margin-right: 40%;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    background-color: transparent;
+}
+
+.btnhero1 a {
+    text-decoration: none;
+    background-color: #172E59;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+/* The Carousel Section */
+.carous {
+    margin-top: -5%;
+}
+
+
+
+
+/* The Hero2 Stylings */
+.hero2 {
+    /* background-image: url(../img/mentbg3.jpg); */
+    background-color: #172E59;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    padding: 5%;
+    color: white;
+}
+
+.bx {
+    background-color: white;
+    color: #172E59;
+    padding: 30px;
+    border-radius: 6px;
+    width: 28%;
+}
+
+.bx h3 {
+    font-weight: bold;
+}
+
+.bx h6 {
+    font-weight: bold;
+}
+
+.bx a {
+    color: #A21E21;
+    font-weight: 700;
+}
+
+.bx button {
+    background-color: #E59A2C;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+
+/* Brands Logo Section */
+.bluelink {
+    text-decoration: none;
+    color: #A21E21;
+    padding-bottom: 1%;
+    border-bottom: 1px solid #A21E21;
+}
+
+.bluelink:hover {
+    color: #172E59;
+    border-bottom: 1px solid #172E59;
+}
+
+.blue {
+    color: #172E59;
+}
+
+.bluebold {
+    color: #172E59;
+    font-weight: 700;
+}
+
+/* The learn Section */
+.learn {
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+.brands img {
+    width: 50%;
+}
+
+.mentmerounded img {
+    border-radius: 50%;
+    width: 80px;
+}
+
+
+
+
+/* Inbetween Text Animation Section */
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+.containerr {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #e5e5e5;
+    font-size: 2.26rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerr {
+    display: flex;
+}
+
+.animationn {
+    height: 50px;
+    overflow: hidden;
+    margin-left: 1rem;
+}
+
+.animationn>div>div {
+    padding: 0.25rem 0.75rem;
+    height: 2.99rem;
+    margin-bottom: 2.81rem;
+    display: inline-block;
+}
+
+.animationn div:first-child {
+    animation: text-animation 8s infinite;
+}
+
+.first div {
+    background-color: #172E59;
+}
+
+.second div {
+    background-color: #CD921E;
+}
+
+.third div {
+    background-color: #A21E21;
+}
+
+@keyframes text-animation {
+    0% {
+        margin-top: 0;
+    }
+
+    10% {
+        margin-top: 0;
+    }
+
+    20% {
+        margin-top: -5.62rem;
+    }
+
+    30% {
+        margin-top: -5.62rem;
+    }
+
+    40% {
+        margin-top: -11.24rem;
+    }
+
+    60% {
+        margin-top: -11.24rem;
+    }
+
+    70% {
+        margin-top: -5.62rem;
+    }
+
+    80% {
+        margin-top: -5.62rem;
+    }
+
+    90% {
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+
+/* Dropdown Sections */
+.menu1 {
+    padding: 0;
+    color: #2a4270;
+    margin-left: -100px;
+    width: 650px;
+    border: none;
+    box-shadow: 0px 0px 10px 0px rgb(207, 207, 207);
+}
+
+.menu1 li a {
+    color: #20468e;
+}
+
+.menucol1 {
+    background-color: #ffffff;
+    padding: 2%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.menucol2 {
+    background-color: #dbe7ff;
+    padding: 2%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.dropdown-item:hover {
+    background-color: #dbe7ff;
+    border-radius: 5px;
+}
+
+.menucol2 p {
+    padding-bottom: 15%;
+    color: grey;
+}
+
+/* ForBusiness */
+.menu2 {
+    padding: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px 0px rgb(207, 207, 207);
+}
+
+.menu2 h5 {
+    color: #172E59;
+}
+
+.menu2 li a {
+    color: #20468e;
+}
+
+
+
+
+
+
+
+
+/* The Footer Section */
+.footer {
+    margin-top: 10%;
+}
+
+.social .fa-facebook,
+.social .fa-instagram,
+.social .fa-twitter,
+.social .fa-linkedin {
+    font-size: 30px;
+    color: rgb(105, 105, 105);
+    margin-right: 20px;
+}
+
+.social .fa-facebook:hover,
+.social .fa-instagram:hover,
+.social .fa-twitter:hover,
+.social .fa-linkedin:hover {
+    color: #A21E21;
+}
+
+/* End of footer socialmedia icons */
+
+/* Footer Links */
+.footerhead {
+    color: #172E59;
+    font-weight: 500;
+}
+
+.footerlinks a {
+    color: gray;
+}
+
+.footerlinks a:hover {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* THE LOG-IN SECTION */
+.loginpage .row .loginpagecol1 {
+    height: 850px;
+    padding-top: 20%;
+    margin-top: 1.6%;
+    background-color: #172E59;
+}
+
+.loginpagecol1 img {
+    left: 3%;
+    position: fixed;
+}
+
+.loginpage {
+    background-image: url(../img/mentbg1.jpg);
+    width: 100%;
+    height: 710px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loginpagecol2 .div1 {
+    margin-top: 2%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../img/hey.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    width: 100%;
+    height: 400px;
+}
+.dont{
+    margin-left: 40px;
+}
+.contents {
+    margin-top: -30%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.mentee {
+    background-color: #A21E21;
+    color: white;
+    border: none;
+    padding: 1% 2%;
+    border-radius: 3px;
+}
+
+.mentee1 {
+    background-color: white;
+    color: #A21E21;
+    padding: 1% 2%;
+    border: 1px solid #A21E21;
+    border-radius: 3px;
+}
+
+.mentor {
+    background-color: #172E59;
+    color: white;
+    border: none;
+    padding: 1% 2%;
+    border-radius: 3px;
+}
+
+.policy {
+    color: #A21E21;
+    text-decoration: none;
+}
+
+.policy:hover {
+    color: #172E59;
+}
+
+/* THE SIGN-UP SECTION */
+.signuppage .row .signuppagecol1 {
+    height: 870px;
+    padding-top: 20%;
+    margin-top: 1.6%;
+    background-color: #A21E21;
+}
+
+.signuppagecol1 img {
+    left: 3%;
+    position: fixed;
+}
+
+.signuppage {
+    background-image: url(../img/mentbg1.jpg);
+    width: 100%;
+    height: 710px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fa-envelope,
+.fa-user {
+    color: #A21E21;
+}
+
+.signuppagecol2 .div1 {
+    margin-top: 2%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../img/pexels-rdne-stock-project-9064685.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    width: 100%;
+    height: 400px;
+}
+
+.contents {
+    margin-top: -30%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.mentee {
+    background-color: #A21E21;
+    color: white;
+    border: none;
+    padding: 1% 2%;
+    border-radius: 3px;
+}
+
+.mentee1 {
+    background-color: white;
+    color: #A21E21;
+    padding: 1% 2%;
+    border: 1px solid #A21E21;
+    border-radius: 3px;
+}
+
+.mentor1 {
+    background-color: #A21E21;
+    color: white;
+    border: none;
+    padding: 1% 2%;
+    border-radius: 3px;
+
+}
+.policy{
+    /* margin-left: 15%; */
+}
+.policy {
+    color: #A21E21;
+    text-decoration: none;
+}
+
+.policy:hover {
+    color: #172E59;
+}
+@media (max-width: 800px) {
+    .signuppagecol2{
+        height: 1140px;
+    }
+    .loginpagecol2{
+        height: 900px;
+    }
+    .policy{
+        /* margin-left: 8%; */
+    }
+    .dont{
+        margin-left: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+
+    /* The hero1 Stylings */
+    .hero1 {
+        padding-top: 10%;
+        width: 100%;
+        height: 500px;
+    }
+
+    .hero1 .container .row .col-md-9 h1 {
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(39, 39, 39);
+    }
+
+    svg text {
+        font-size: 50px;
+    }
+
+    .btnhero1 {
+        background-color: transparent, none;
+        padding: 30px 0;
+        box-shadow: 0px 25px 30px 0px rgb(211, 211, 211);
+    }
+
+    .btnhero1 input {
+        background-color: transparent;
+        width: 50%;
+        margin-right: 10%;
+        font-size: 15px;
+    }
+
+    .btnhero1 a {
+        font-size: 10px;
+        padding: 10px
+    }
+
+
+    /* The carousel responsive */
+    /* .carous .row .col-md-12 video{
+        margin-top: -15%;
+        margin-bottom: -10%;
+    } */
+
+    .beforevideo{
+        margin-top: 10%;
+    }
+
+    /* The hero2 Styling */
+    .hero2 {
+        /* background-image: url(../img/mentbg3.jpg); */
+        width: 100%;
+        height: 1500px;
+        padding: 5% 0;
+        color: white;
+    }
+
+    .bx {
+        padding: 20px;
+        margin-bottom: 4%;
+        border-radius: 6px;
+        width: 100%;
+    }
+
+    .smargin {
+        margin-top: 10%;
+        margin-bottom: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    /* Text animation 'hello' styling */
+    .containerr {
+        color: #d7d5d5;
+        font-size: 24px;
+    }
+
+    .containerr p{
+        font-size: 20px;
+    }
+
+    .animationn {
+        height: 50px;
+        overflow: hidden;
+        margin-left: 1rem;
+    }
+
+    .animationn>div>div {
+        padding: 0.25rem 0.75rem;
+        height: 2.99rem;
+        margin-bottom: 2.81rem;
+        display: inline-block;
+    }
+}

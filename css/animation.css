@@ -1,0 +1,32 @@
+/* Animations For mentorme */
+
+/* Slide Animation */
+.slideanim{
+    visibility: hidden;
+}
+.slide{
+    animation-name: slide;
+    animation-duration: 2s;
+    visibility: visible;
+}
+
+@keyframes slide{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(30%);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(-70%)
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}

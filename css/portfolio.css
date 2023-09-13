@@ -1,0 +1,372 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Navbar Section */
+.collapse ul li {
+    padding-right: 40px;
+}
+
+.fa-chevron-down {
+    color: #172E59;
+}
+
+/* End of Nav Styling */
+
+/* The Footer Section */
+.footer{
+    margin-top: 10%;
+
+}
+.social .fa-facebook, .social .fa-instagram, .social .fa-twitter, .social .fa-linkedin{
+    font-size: 30px;
+    color: rgb(105, 105, 105);
+    margin-right: 20px;
+}
+.social .fa-facebook:hover, .social .fa-instagram:hover, .social .fa-twitter:hover, .social .fa-linkedin:hover{
+    color: #A21E21;
+}
+/* End of footer socialmedia icons */
+
+/* Footer Links */
+.footerhead{
+    color: #172E59;
+    font-weight: 500;
+}
+.footerlinks a{
+    color: gray;
+} .footerlinks a:hover{color: black;}
+
+
+
+/* Main1 Stylings */
+.main1{
+    background-color: #172E59;
+    color: white;
+    width: 100%;
+    height: 250px;
+}
+.main1home a{
+    text-decoration: none;
+    color: white;
+}
+.main1home a:hover{
+    color: orange;
+}
+.main1absolute img{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 170px;
+    height: 170px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.main1absolute .topmentor{
+    position: absolute;
+    top: 40%;
+    left: 24%;
+    color: #172E59;
+    background-color: #eaf0fb;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 25px;
+}
+.main1absolute .linkedin{
+    position: absolute;
+    top: 40%;
+    left: 57%;
+    font-size: 30px;
+}
+
+
+/* Skills Stylings */
+.skills{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    padding-bottom: 6%;
+    border-bottom: 1px solid rgb(172, 172, 172);
+}
+.skills .container .row .col-md-8 .row .col-md-6 h2{
+    color: #172E59;  
+}
+.skillsmargin{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.blood{
+    color: #A21E21;
+}
+.blue{
+    color: #172E59;
+}
+.skills .container .row .col-md-8 .row .col-md-6 a{
+    margin-bottom: 3%;
+    word-spacing: 3px;
+}
+.skills .container .row .col-md-8 .row .col-md-6 .playbox{
+    margin-right: 3%;
+    text-decoration: none;
+    border: 1px solid #172E59;
+    padding: 1% 2%;
+    color: #172E59;
+    border-radius: 5px;
+}
+.skills .container .row .col-md-8 .row .sndcol a{
+    text-decoration: none;
+    color: #172E59;
+    background-color: #f0f3f8;
+    padding: 1% 2%;
+    border-radius: 25px;
+    border: none;
+    font-size: 14px;
+} 
+.skills .container .row .col-md-8 .row .sndcol a:hover{
+    background-color: #ddeaff;
+} 
+
+
+/* Aboutben Stylings */
+.aboutben1col{
+    border-bottom: 1px solid grey;
+    padding-bottom: 6%;
+    margin-bottom: 6%;
+}
+.bluelink{
+    text-decoration: none;
+    color: #172E59;
+    font-weight: bold;
+}
+.bloodlink{
+    text-decoration: none;
+    color: #A21E21;
+}
+
+.getintouch{
+    color: black;
+    text-decoration: none;
+    padding: 4px 10px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.getintouch:hover{
+    color: white;
+    background-color: #172E59;
+    border: none;
+}
+
+.inquiriesbox{
+    background-color: #f2f5fb;
+    padding: 4% 2%;
+    border-radius: 5px;
+    align-items: center;
+}
+.fa-comment{
+    font-size: 25px;
+    color: #A21E21;
+}
+
+
+/* Mentees stylings */
+.mentees{
+    padding-bottom: 6%;
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+.allbox{
+    position: relative;
+}
+span img{
+    top: 30%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.wms{
+    margin-bottom: 7%;
+}
+.starsabsolute1{
+    position: absolute;
+    left: 9%;
+    top: 10%;
+}
+.starsabsolute2{
+    position: absolute;
+    left: 9%;
+    top: 22%;
+    font-size: 14px;
+}
+.patient{
+    margin-top: 5%;
+}
+
+.loadmorereviews{
+    text-decoration: none;
+    border: 1px solid grey;
+    padding: 4px 10px;
+    color: grey;
+}
+
+.loadmorereviews:hover{
+    color: #A21E21;
+}
+
+
+
+/* Content Stylings */
+.cardmentees{
+    padding-bottom: 6%;
+    border-bottom: 1px solid grey;
+}
+.card{
+    border: 1px solid red;
+    outline: none;
+}
+
+
+/* Skills and Topics */
+.skill1 a{
+    text-decoration: none;
+    color: black;
+    background-color: #e9e9ea;
+    border-radius: 25px;
+    padding: 4px 10px;
+}
+.skill1 a:hover{
+    color: black;
+    background-color: #d1d1d1;
+}
+
+
+
+/* Similar mentors */
+.benja{
+    font-size: 14px;
+    color: rgb(124, 124, 124);
+}
+.plat a{
+    font-size: 14px;
+    background-color: #e9eaeb;
+    color: black;
+    text-decoration: none;
+    padding: 4px 9px;
+    border-radius: 25px;
+}
+.plat a:hover{
+    color: black;
+    background-color: #d1d1d1;
+}
+
+.similarmentors .container .skillsmargin .row .col-md-8 .col-md-2 img{
+    border-radius: 50%;
+    width: 100%;
+}
+.colmd10{
+    padding-bottom: 3%;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+
+
+/* FixedBox Stylings */
+.all{
+    position: relative;
+}
+.fixedbox{
+    border: 2px solid #172E59;
+    padding: 1% 0;
+    border-radius: 10px;
+    background-color: white;
+    position: fixed;
+    left: 65%;
+    margin-top: 5%!important;
+}
+.threetabs1{
+    border-top: none;
+}
+.threetabs{
+    padding: 2%;
+    justify-content: space-around;
+}
+.threetabs li button:hover{
+    color: white;
+    background-color: #172E59;
+    border-radius: 10px;
+    font-size: 13px;
+}
+.threetabs li button{
+    font-size: 12px;
+    color: #A21E21;
+    width: 100%;
+}
+.fixedbox .navv div{
+    justify-content: center;
+    border-bottom: 1px solid #172E59;
+}
+.fixedbox .navv div button{
+    color: #172E59;
+    border-bottom: 1px solid #172E59;
+}
+.fixedbox .navv div button:hover{
+    background-color: #172E59;
+    color: white;
+}
+.fixedbox .litecontents{
+    padding: 5%;
+}
+.fixedbox .litecontents button a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Profile Section */
+.profilecontents{
+    /* padding: 5%; */
+    border: 1px solid #A21E21;
+    border-radius: 20px;
+    margin-top: 3%;
+}
+.profilecontents .form-check{
+    padding: 3% 10%;
+    /* border-bottom: 1px solid rgb(190, 190, 190); */
+}
+.fa-save{
+    color: white;
+    font-size: 20px;
+    margin-right: 4%;
+}
+.profilecontents .form-check:hover{
+    background-color: #e2ebfd;
+    border-radius: 20px;
+}
+.profiled a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.profiled a:hover{
+    text-decoration: none;
+    color: #eaf0fb;
+    font-weight: bold;
+}
+.profilebtn1{
+    background-color: #172E59;
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    padding: 2% 0;
+    border: none;
+}
+.profilebtn2{
+    background-color: #A21E21;
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    padding: 2% 0;
+    border: none;
+}

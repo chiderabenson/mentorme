@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>AI Chatbot</title>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-box" id="chat-box">
+            <!-- Messages will be displayed here -->
+        </div>
+        <div class="user-input">
+            <input type="text" id="message-input" placeholder="Type your message...">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+<script>
+    const chatBox = document.getElementById('chat-box');
+const messageInput = document.getElementById('message-input');
+const sendButton = document.getElementById('send-button');
+
+sendButton.addEventListener('click', sendMessage);
+
+function sendMessage() {
+    const userMessage = messageInput.value.trim();
+    if (userMessage !== '') {
+        displayMessage('You', userMessage);
+
+        // Simulate AI response after a short delay
+        setTimeout(() => {
+            const aiResponse = getAIResponse(userMessage);
+            displayMessage('AI', aiResponse);
+        }, 1000);
+
+        messageInput.value = '';
+    }
+}
+
+function displayMessage(sender, message) {
+    const messageElement = document.createElement('div');
+    messageElement.classList.add('message');
+    messageElement.innerHTML = `<strong>${sender}:</strong> ${message}`;
+    chatBox.appendChild(messageElement);
+    // Scroll to the bottom of the chat box
+    chatBox.scrollTop = chatBox.scrollHeight;
+}
+
+function getAIResponse(userMessage) {
+    // Simulate AI response here
+    // In a real implementation, this is where you would call an API or AI service
+    const aiResponses = [
+        "Hello there! How can I help you?",
+        "I'm here to assist you.",
+        "What would you like to know?"
+    ];
+    return aiResponses[Math.floor(Math.random() * aiResponses.length)];
+}
+
+</script>
+</html>
